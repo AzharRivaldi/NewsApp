@@ -67,7 +67,7 @@ class NewsAdapter(private val modelArticles: MutableList<ModelArticle>, private 
         return modelArticles.size
     }
 
-    internal class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var frameListNews: FrameLayout
         var tvTimeAgo: TextView
         var tvNameSource: TextView
