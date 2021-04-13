@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="@android:color/darker_gray">
+    <item
+        android:id="@+id/menuHeadline"
+        android:enabled="true"
+        android:icon="@drawable/ic_headline"
+        android:title="Berita Utama"
+        app:cnb_iconColor="@color/colorPrimaryDark" />
+    <item
+        android:id="@+id/menuSports"
+        android:enabled="true"
+        android:icon="@drawable/ic_sports"
+        android:title="Olahraga"
+        app:cnb_iconColor="@color/colorPrimaryDark" />
+    <item
+        android:id="@+id/menuTechnology"
+        android:enabled="true"
+        android:icon="@drawable/ic_technology"
+        android:title="Teknologi"
+        app:cnb_iconColor="@color/colorPrimaryDark" />
+    <item
+        android:id="@+id/menuBusiness"
+        android:enabled="true"
+        android:icon="@drawable/ic_business"
+        android:title="Bisnis"
+        app:cnb_iconColor="@color/colorPrimaryDark" />
+    <item
+        android:id="@+id/menuHealth"
+        android:enabled="true"
+        android:icon="@drawable/ic_health"
+        android:title="Kesehatan"
+        app:cnb_iconColor="@color/colorPrimaryDark" />
+    <item
+        android:id="@+id/menuEntertaiment"
+        android:enabled="true"
+        android:icon="@drawable/ic_enternatiment"
+        android:title="Hiburan"
+        app:cnb_iconColor="@color/colorPrimaryDark" />
+    <item
+        android:id="@+id/menuSearch"
+        android:enabled="true"
+        android:icon="@drawable/ic_search"
+        android:title="Cari Berita"
+        app:cnb_iconColor="@color/colorPrimaryDark" />
+</menu>
